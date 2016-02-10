@@ -1,6 +1,6 @@
 # Git Things
 
-# change some unpushed git commit messages
+# `change some unpushed git commit messages`
 
 * `git commit --amend` to update HEAD commit
 * `git rebase -i HEAD~3` to update the last 3
