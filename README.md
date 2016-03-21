@@ -1,11 +1,14 @@
 # Git Things
 
 # `change some unpushed git commit messages`
-
-* `git commit --amend` to update HEAD commit
+  * `git commit --amend` to update HEAD commit
 * `git rebase -i HEAD~3` to update the last 3
-   * change `pick` to `edit` to designate the commits to edit, save and quit
-   * then `git commit --amend`, save and quit
-   * then `git rebase --continue`
-   * repeat amend and continue accordingly
-   * See [changing git history](http://schacon.github.io/history.html)
+  * change `pick` to `edit` to designate the commits to edit, save and quit
+  * then `git commit --amend`, save and quit
+  * then `git rebase --continue`
+  * repeat amend and continue accordingly
+  * See [changing git history](http://schacon.github.io/history.html)
+* `modify a pushed commit message`
+  * `git commit --amend`
+  * `git push --force origin <branch>`
+   
