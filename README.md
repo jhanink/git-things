@@ -11,4 +11,9 @@
 * `modify a pushed commit message`
   * `git commit --amend`
   * `git push --force origin <branch>`
+* `git log`
+  * `git log -p filename`, browse the patch history
+  * `git log show SHA`
+* `git diff`
+  * `git diff SHA SHA^`
    
