@@ -16,4 +16,7 @@
   * `git log show SHA`
 * `git diff`
   * `git diff SHA SHA^`
-   
+* `config`
+  * git config --global user.name myusername
+  * git config --global user.email myemail
+  * git config --global github.user myusername
